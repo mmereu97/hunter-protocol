@@ -1,0 +1,3 @@
+PySide6>=6.5
+python-dotenv>=1.0
+google-generativeai>=0.5      # AI reports and the test architect (optional: the app runs without a key)

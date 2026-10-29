@@ -1,0 +1,4 @@
+ROLE: Profiler Longitudinal.
+TASK: Analizează evoluția în timp a subiectului bazat pe istoricul testelor.
+FOCUS: Identifică trenduri (ex: "Anxietatea a scăzut în ultimul an"). Caută consistența caracterului.
+DATA: {data}

@@ -1,0 +1,441 @@
+HUNTER PROTOCOL - SYNERGY RULES & MONSTER LOGIC
+============================================================
+SCOP: Analiza conditiilor de declansare a axelor de risc (Monstri).
+============================================================
+
+
+👹 ȚINTĂ (MONSTRU): ADHD (DISFUNCȚIE EXECUTIVĂ)
+   Sursă Sistem: ASRS-v1.1
+   ----------------------------------------
+   Dacă Ingredientul: Vivacitate / Activitate [OCEAN E, HEXACO X, NEO-PI-R E4, 16PF F]
+   Definiție Poli: (0 = Lent / Pasiv | 100 = Energic / Dinamic)
+   CONDIȚIE: Scor < 30
+   ....................
+   Dacă Ingredientul: Organizare / Ordine [OCEAN C, HEXACO C, NEO-PI-R C2]
+   Definiție Poli: (0 = Haotic | 100 = Structurat / Ordonat)
+   CONDIȚIE: Scor < 30
+   ....................
+   Dacă Ingredientul: Stil de Atenție (Focus) [Newport]
+   Definiție Poli: (0 = Multitasking / Distributiv | 100 = Deep Work / Focusat / Monahal)
+   CONDIȚIE: Scor < 20
+   ....................
+
+👹 ȚINTĂ (MONSTRU): AGRESIVITATE
+   Sursă Sistem: CWB-C
+   ----------------------------------------
+   Dacă Ingredientul: Ostilitate (Furie) [OCEAN N, NEO-PI-R N2]
+   Definiție Poli: (0 = Calm / Pașnic | 100 = Furios / Agresiv)
+   CONDIȚIE: Scor > 75
+   ....................
+   Dacă Ingredientul: Răbdare [HEXACO A]
+   Definiție Poli: (0 = Irascibil / Fitil Scurt | 100 = Răbdător / Stoic)
+   CONDIȚIE: Scor < 25
+   ....................
+
+👹 ȚINTĂ (MONSTRU): ALEXITIMIE
+   Sursă Sistem: TAS-20
+   ----------------------------------------
+   Dacă Ingredientul: Receptivitate Emoțională [OCEAN O, NEO-PI-R O3]
+   Definiție Poli: (0 = Ignoră Emoțiile | 100 = Trăiește Intens)
+   CONDIȚIE: Scor < 20
+   ....................
+   Dacă Ingredientul: Interes Realist (Tehnic) [Holland R]
+   Definiție Poli: (0 = Mental / Abstract | 100 = Practic / Manual)
+   CONDIȚIE: Scor < 30
+   ....................
+
+👹 ȚINTĂ (MONSTRU): ANHEDONIE
+   Sursă Sistem: DSM-5
+   ----------------------------------------
+   Dacă Ingredientul: Vivacitate / Activitate [OCEAN E, HEXACO X, NEO-PI-R E4, 16PF F]
+   Definiție Poli: (0 = Lent / Pasiv | 100 = Energic / Dinamic)
+   CONDIȚIE: Scor < 20
+   ....................
+   Dacă Ingredientul: Căutarea Senzațiilor [OCEAN E NEO-PI-R E5]
+   Definiție Poli: (0 = Prudent / Casnic | 100 = Aventurier / Adrenalină)
+   CONDIȚIE: Scor < 20
+   ....................
+
+👹 ȚINTĂ (MONSTRU): ANXIETATE SOCIALĂ (FOBIE)
+   Sursă Sistem: LSAS
+   ----------------------------------------
+   Dacă Ingredientul: Timiditate Socială (Jena) [OCEAN N, NEO-PI-R N4]
+   Definiție Poli: (0 = Tupeist / Direct | 100 = Timid / Rușinos)
+   CONDIȚIE: Scor > 80
+   ....................
+   Dacă Ingredientul: Stimă de Sine Socială [HEXACO X]
+   Definiție Poli: (0 = Nesigur / Retras | 100 = Încrezător / Popular)
+   CONDIȚIE: Scor < 25
+   ....................
+
+👹 ȚINTĂ (MONSTRU): AUTISM (SPECTRU ASD)
+   Sursă Sistem: AQ Test
+   ----------------------------------------
+   Dacă Ingredientul: Sociabilitate [OCEAN E, HEXACO X, NEO-PI-R E2]
+   Definiție Poli: (0 = Pustnic / Introvertit | 100 = Gregar / Extrovertit)
+   CONDIȚIE: Scor < 30
+   ....................
+   Dacă Ingredientul: Sensibilitate Senzorială [HSP Scale]
+   Definiție Poli: (0 = Tanc / Insensibil | 100 = HSP / Hipersensibil)
+   CONDIȚIE: Scor > 70
+   ....................
+
+👹 ȚINTĂ (MONSTRU): BPD (BORDERLINE)
+   Sursă Sistem: MSI-BPD
+   ----------------------------------------
+   Dacă Ingredientul: Vulnerabilitate la Stres [OCEAN N, NEO-PI-R N6, 16PF C]
+   Definiție Poli: (0 = Rezilient / Tare | 100 = Fragil / Copleșit)
+   CONDIȚIE: Scor > 75
+   ....................
+   Dacă Ingredientul: Ostilitate (Furie) [OCEAN N, NEO-PI-R N2]
+   Definiție Poli: (0 = Calm / Pașnic | 100 = Furios / Agresiv)
+   CONDIȚIE: Scor > 70
+   ....................
+
+👹 ȚINTĂ (MONSTRU): BURNOUT (EPUIZARE)
+   Sursă Sistem: MBI
+   ----------------------------------------
+   Dacă Ingredientul: Vivacitate / Activitate [OCEAN E, HEXACO X, NEO-PI-R E4, 16PF F]
+   Definiție Poli: (0 = Lent / Pasiv | 100 = Energic / Dinamic)
+   CONDIȚIE: Scor < 25
+   ....................
+   Dacă Ingredientul: Vulnerabilitate la Stres [OCEAN N, NEO-PI-R N6, 16PF C]
+   Definiție Poli: (0 = Rezilient / Tare | 100 = Fragil / Copleșit)
+   CONDIȚIE: Scor > 75
+   ....................
+
+👹 ȚINTĂ (MONSTRU): CINISM (MIZANTROPIE)
+   Sursă Sistem: MMPI
+   ----------------------------------------
+   Dacă Ingredientul: Încredere în Oameni [OCEAN A, NEO-PI-R A1]
+   Definiție Poli: (0 = Cinic / Suspicios | 100 = Încrezător / Naiv)
+   CONDIȚIE: Scor < 25
+   ....................
+   Dacă Ingredientul: Vigilență / Suspiciune [16PF L]
+   Definiție Poli: (0 = Încrezător | 100 = Suspicios / Paranoic)
+   CONDIȚIE: Scor > 70
+   ....................
+
+👹 ȚINTĂ (MONSTRU): COMPORTAMENT ANTISOCIAL
+   Sursă Sistem: MMPI RC4
+   ----------------------------------------
+   Dacă Ingredientul: Respectare Reguli [16PF G]
+   Definiție Poli: (0 = Anarhist | 100 = Procedural / Conformist)
+   CONDIȚIE: Scor < 25
+   ....................
+   Dacă Ingredientul: Corectitudine [HEXACO E]
+   Definiție Poli: (0 = Oportunist / Fraudulos | 100 = Principial / Corect)
+   CONDIȚIE: Scor < 25
+   ....................
+
+👹 ȚINTĂ (MONSTRU): DEMORALIZARE
+   Sursă Sistem: MMPI
+   ----------------------------------------
+   Dacă Ingredientul: Depresie [OCEAN N, NEO-PI-R N3]
+   Definiție Poli: (0 = Optimist / Vesel | 100 = Trist / Descurajat)
+   CONDIȚIE: Scor > 75
+   ....................
+   Dacă Ingredientul: Emoții Pozitive (Optimism) [OCEAN E, NEO-PI-R E6]
+   Definiție Poli: (0 = Pesimist / Melancolic | 100 = Optimist / Vesel)
+   CONDIȚIE: Scor < 25
+   ....................
+
+👹 ȚINTĂ (MONSTRU): DEPERSONALIZARE (JOB)
+   Sursă Sistem: MBI
+   ----------------------------------------
+   Dacă Ingredientul: Sentimentalism [HEXACO E]
+   Definiție Poli: (0 = Rece / Rațional | 100 = Empatic / Sentimental)
+   CONDIȚIE: Scor < 20
+   ....................
+   Dacă Ingredientul: Disociere [DES-II]
+   Definiție Poli: (0 = Ancorat | 100 = Visător / Absent)
+   CONDIȚIE: Scor > 60
+   ....................
+
+👹 ȚINTĂ (MONSTRU): DEZINHIBIȚIE
+   Sursă Sistem: PID-5
+   ----------------------------------------
+   Dacă Ingredientul: Impulsivitate [OCEAN N, NEO-PI-R N5]
+   Definiție Poli: (0 = Controlat / Deliberat | 100 = Impulsiv / Reactiv)
+   CONDIȚIE: Scor > 80
+   ....................
+   Dacă Ingredientul: Prudență / Deliberare [OCEAN C, HEXACO C, NEO-PI-R C6]
+   Definiție Poli: (0 = Spontan / Riscant | 100 = Calculat / Precaut)
+   CONDIȚIE: Scor < 20
+   ....................
+
+👹 ȚINTĂ (MONSTRU): DEZIRABILITATE SOCIALĂ
+   Sursă Sistem: Marlowe-Crowne
+   ----------------------------------------
+   Dacă Ingredientul: Sinceritate/Franchețe [OCEAN A, HEXACO E, NEO-PI-R A2]
+   Definiție Poli: (0 = Strategic / Machiavelic | 100 = Onest / Integru)
+   CONDIȚIE: Scor > 90
+   ....................
+   Dacă Ingredientul: Corectitudine [HEXACO E]
+   Definiție Poli: (0 = Oportunist / Fraudulos | 100 = Principial / Corect)
+   CONDIȚIE: Scor > 90
+   ....................
+
+👹 ȚINTĂ (MONSTRU): DISOCIERE
+   Sursă Sistem: DES-II
+   ----------------------------------------
+   Dacă Ingredientul: Fantezie / Creativitate [OCEAN O, HEXACO O, NEO-PI-R O1]
+   Definiție Poli: (0 = Realist | 100 = Visător / Imaginativ)
+   CONDIȚIE: Scor > 85
+   ....................
+   Dacă Ingredientul: Vivacitate / Activitate [OCEAN E, HEXACO X, NEO-PI-R E4, 16PF F]
+   Definiție Poli: (0 = Lent / Pasiv | 100 = Energic / Dinamic)
+   CONDIȚIE: Scor < 30
+   ....................
+
+👹 ȚINTĂ (MONSTRU): FLIGHT RISK
+   Sursă Sistem: Mobley
+   ----------------------------------------
+   Dacă Ingredientul: Motivație Financiară [Schwartz]
+   Definiție Poli: (0 = Misionar / Sens | 100 = Mercenar / Bani)
+   CONDIȚIE: Scor > 80
+   ....................
+   Dacă Ingredientul: Simțul Datoriei [OCEAN C, NEO-PI-R C3]
+   Definiție Poli: (0 = Rebel / Nonconformist | 100 = Loial / Responsabil)
+   CONDIȚIE: Scor < 35
+   ....................
+   Dacă Ingredientul: Mobilitate (Stil de Viață) [Hunter V1]
+   Definiție Poli: (0 = Sedentar / Stabil / Casnic | 100 = Nomad / Dinamic / Călător)
+   CONDIȚIE: Scor > 80
+   ....................
+
+👹 ȚINTĂ (MONSTRU): GÂNDIRE BIZARĂ
+   Sursă Sistem: MMPI
+   ----------------------------------------
+   Dacă Ingredientul: Fantezie / Creativitate [OCEAN O, HEXACO O, NEO-PI-R O1]
+   Definiție Poli: (0 = Realist | 100 = Visător / Imaginativ)
+   CONDIȚIE: Scor > 80
+   ....................
+   Dacă Ingredientul: Gândire Abstractă/Raționament (IQ) [16PF B]
+   Definiție Poli: (0 = Gândire Concretă | 100 = Gândire Abstractă)
+   CONDIȚIE: Scor < 40
+   ....................
+
+👹 ȚINTĂ (MONSTRU): HĂRȚUIRE (BOUNDARIES)
+   Sursă Sistem: LPI
+   ----------------------------------------
+   Dacă Ingredientul: Impulsivitate [OCEAN N, NEO-PI-R N5]
+   Definiție Poli: (0 = Controlat / Deliberat | 100 = Impulsiv / Reactiv)
+   CONDIȚIE: Scor > 75
+   ....................
+   Dacă Ingredientul: Asertivitate / Dominanță [OCEAN E, HEXACO X, NEO-PI-R E3, 16PF H]
+   Definiție Poli: (0 = Submisiv / Pasiv | 100 = Dominant / Lider)
+   CONDIȚIE: Scor > 70
+   ....................
+   Dacă Ingredientul: Blândețe [OCEAN A, HEXACO A, NEO-PI-R A6]
+   Definiție Poli: (0 = Dur / Critic | 100 = Blând / Binevoitor)
+   CONDIȚIE: Scor < 30
+   ....................
+
+👹 ȚINTĂ (MONSTRU): INTEGRITATE (RISC FRAUDĂ)
+   Sursă Sistem: PSI
+   ----------------------------------------
+   Dacă Ingredientul: Corectitudine [HEXACO E]
+   Definiție Poli: (0 = Oportunist / Fraudulos | 100 = Principial / Corect)
+   CONDIȚIE: Scor < 30
+   ....................
+   Dacă Ingredientul: Evitarea Lăcomiei [HEXACO E]
+   Definiție Poli: (0 = Materialist / Lux | 100 = Modest / Neinteresat)
+   CONDIȚIE: Scor < 30
+   ....................
+
+👹 ȚINTĂ (MONSTRU): LOAFING (CHIUL)
+   Sursă Sistem: Org Psych
+   ----------------------------------------
+   Dacă Ingredientul: Auto-disciplină [OCEAN C, HEXACO C, NEO-PI-R C5]
+   Definiție Poli: (0 = Procrastinator | 100 = Disciplinat / Voință)
+   CONDIȚIE: Scor < 30
+   ....................
+   Dacă Ingredientul: Dependență Emoțională [HEXACO E]
+   Definiție Poli: (0 = Independent / Solo | 100 = Nevoie de Suport / Tribal)
+   CONDIȚIE: Scor > 70
+   ....................
+
+👹 ȚINTĂ (MONSTRU): MACHIAVELISM
+   Sursă Sistem: Dark Triad
+   ----------------------------------------
+   Dacă Ingredientul: Sinceritate/Franchețe [OCEAN A, HEXACO E, NEO-PI-R A2]
+   Definiție Poli: (0 = Strategic / Machiavelic | 100 = Onest / Integru)
+   CONDIȚIE: Scor < 30
+   ....................
+   Dacă Ingredientul: Stimă de Sine Socială [HEXACO X]
+   Definiție Poli: (0 = Nesigur / Retras | 100 = Încrezător / Popular)
+   CONDIȚIE: Scor < 30
+   ....................
+
+👹 ȚINTĂ (MONSTRU): MALICIOUS (RĂUTATE)
+   Sursă Sistem: CAST
+   ----------------------------------------
+   Dacă Ingredientul: Iertare [HEXACO A]
+   Definiție Poli: (0 = Răzbunător / Ranchiunos | 100 = Iertător / Împăciuitor)
+   CONDIȚIE: Scor < 20
+   ....................
+   Dacă Ingredientul: Ostilitate (Furie) [OCEAN N, NEO-PI-R N2]
+   Definiție Poli: (0 = Calm / Pașnic | 100 = Furios / Agresiv)
+   CONDIȚIE: Scor > 60
+   ....................
+
+👹 ȚINTĂ (MONSTRU): MICROMANAGEMENT
+   Sursă Sistem: Hogan
+   ----------------------------------------
+   Dacă Ingredientul: Competență / Perfecționism [OCEAN C, HEXACO C, NEO-PI-R C1, 16PF Q3]
+   Definiție Poli: (0 = Pragmatic / Aproximativ | 100 = Meticulos / Expert)
+   CONDIȚIE: Scor > 80
+   ....................
+   Dacă Ingredientul: Încredere în Oameni [OCEAN A, NEO-PI-R A1]
+   Definiție Poli: (0 = Cinic / Suspicios | 100 = Încrezător / Naiv)
+   CONDIȚIE: Scor < 30
+   ....................
+
+👹 ȚINTĂ (MONSTRU): NARCISISM
+   Sursă Sistem: Dark Triad
+   ----------------------------------------
+   Dacă Ingredientul: Modestie [OCEAN A, HEXACO E, NEO-PI-R A5]
+   Definiție Poli: (0 = Arogant / Superior | 100 = Umil / Egal)
+   CONDIȚIE: Scor < 20
+   ....................
+   Dacă Ingredientul: Asertivitate / Dominanță [OCEAN E, HEXACO X, NEO-PI-R E3, 16PF H]
+   Definiție Poli: (0 = Submisiv / Pasiv | 100 = Dominant / Lider)
+   CONDIȚIE: Scor > 75
+   ....................
+
+👹 ȚINTĂ (MONSTRU): NEGLIJENȚĂ
+   Sursă Sistem: Hogan
+   ----------------------------------------
+   Dacă Ingredientul: Organizare / Ordine [OCEAN C, HEXACO C, NEO-PI-R C2]
+   Definiție Poli: (0 = Haotic | 100 = Structurat / Ordonat)
+   CONDIȚIE: Scor < 25
+   ....................
+   Dacă Ingredientul: Simțul Datoriei [OCEAN C, NEO-PI-R C3]
+   Definiție Poli: (0 = Rebel / Nonconformist | 100 = Loial / Responsabil)
+   CONDIȚIE: Scor < 30
+   ....................
+
+👹 ȚINTĂ (MONSTRU): OCPD (OBSESIV-COMPULSIV)
+   Sursă Sistem: DSM-5
+   ----------------------------------------
+   Dacă Ingredientul: Competență / Perfecționism [OCEAN C, HEXACO C, NEO-PI-R C1, 16PF Q3]
+   Definiție Poli: (0 = Pragmatic / Aproximativ | 100 = Meticulos / Expert)
+   CONDIȚIE: Scor > 80
+   ....................
+   Dacă Ingredientul: Flexibilitate [HEXACO A]
+   Definiție Poli: (0 = Încăpățânat / Rigid | 100 = Flexibil / Adaptabil)
+   CONDIȚIE: Scor < 25
+   ....................
+
+👹 ȚINTĂ (MONSTRU): PSIHOPATIE
+   Sursă Sistem: Dark Triad
+   ----------------------------------------
+   Dacă Ingredientul: Blândețe [OCEAN A, HEXACO A, NEO-PI-R A6]
+   Definiție Poli: (0 = Dur / Critic | 100 = Blând / Binevoitor)
+   CONDIȚIE: Scor < 20
+   ....................
+   Dacă Ingredientul: Impulsivitate [OCEAN N, NEO-PI-R N5]
+   Definiție Poli: (0 = Controlat / Deliberat | 100 = Impulsiv / Reactiv)
+   CONDIȚIE: Scor > 70
+   ....................
+
+👹 ȚINTĂ (MONSTRU): SABOTOR
+   Sursă Sistem: Dark Tetrad
+   ----------------------------------------
+   Dacă Ingredientul: Sinceritate/Franchețe [OCEAN A, HEXACO E, NEO-PI-R A2]
+   Definiție Poli: (0 = Strategic / Machiavelic | 100 = Onest / Integru)
+   CONDIȚIE: Scor < 30
+   ....................
+   Dacă Ingredientul: Diplomație / Secretomanie [16PF N]
+   Definiție Poli: (0 = Deschis / Naiv | 100 = Calculat / Secretos)
+   CONDIȚIE: Scor > 70
+   ....................
+
+👹 ȚINTĂ (MONSTRU): SADISM COTIDIAN
+   Sursă Sistem: CAST
+   ----------------------------------------
+   Dacă Ingredientul: Stimă de Sine Socială [HEXACO X]
+   Definiție Poli: (0 = Nesigur / Retras | 100 = Încrezător / Popular)
+   CONDIȚIE: Scor < 15
+   ....................
+   Dacă Ingredientul: Ostilitate (Furie) [OCEAN N, NEO-PI-R N2]
+   Definiție Poli: (0 = Calm / Pașnic | 100 = Furios / Agresiv)
+   CONDIȚIE: Scor > 70
+   ....................
+
+👹 ȚINTĂ (MONSTRU): SINDROM IMPOSTOR
+   Sursă Sistem: CIPS
+   ----------------------------------------
+   Dacă Ingredientul: Competență / Perfecționism [OCEAN C, HEXACO C, NEO-PI-R C1, 16PF Q3]
+   Definiție Poli: (0 = Pragmatic / Aproximativ | 100 = Meticulos / Expert)
+   CONDIȚIE: Scor > 75
+   ....................
+   Dacă Ingredientul: Anxietate [OCEAN A, HEXACO E, NEO-PI-R N1]
+   Definiție Poli: (0 = Calm / Relaxat | 100 = Îngrijorat / Tensionat)
+   CONDIȚIE: Scor > 75
+   ....................
+
+👹 ȚINTĂ (MONSTRU): SOMATIZARE
+   Sursă Sistem: MMPI
+   ----------------------------------------
+   Dacă Ingredientul: Anxietate [OCEAN A, HEXACO E, NEO-PI-R N1]
+   Definiție Poli: (0 = Calm / Relaxat | 100 = Îngrijorat / Tensionat)
+   CONDIȚIE: Scor > 70
+   ....................
+   Dacă Ingredientul: Vulnerabilitate la Stres [OCEAN N, NEO-PI-R N6, 16PF C]
+   Definiție Poli: (0 = Rezilient / Tare | 100 = Fragil / Copleșit)
+   CONDIȚIE: Scor > 70
+   ....................
+
+👹 ȚINTĂ (MONSTRU): TULBURARE BIPOLARĂ (MANIE)
+   Sursă Sistem: MDQ / DSM-5
+   ----------------------------------------
+   Dacă Ingredientul: Vivacitate / Activitate [OCEAN E, HEXACO X, NEO-PI-R E4, 16PF F]
+   Definiție Poli: (0 = Lent / Pasiv | 100 = Energic / Dinamic)
+   CONDIȚIE: Scor > 80
+   ....................
+   Dacă Ingredientul: Impulsivitate [OCEAN N, NEO-PI-R N5]
+   Definiție Poli: (0 = Controlat / Deliberat | 100 = Impulsiv / Reactiv)
+   CONDIȚIE: Scor > 80
+   ....................
+   Dacă Ingredientul: Căutarea Senzațiilor [OCEAN E NEO-PI-R E5]
+   Definiție Poli: (0 = Prudent / Casnic | 100 = Aventurier / Adrenalină)
+   CONDIȚIE: Scor > 75
+   ....................
+
+👹 ȚINTĂ (MONSTRU): UNCOACHABLE
+   Sursă Sistem: CPI
+   ----------------------------------------
+   Dacă Ingredientul: Asertivitate / Dominanță [OCEAN E, HEXACO X, NEO-PI-R E3, 16PF H]
+   Definiție Poli: (0 = Submisiv / Pasiv | 100 = Dominant / Lider)
+   CONDIȚIE: Scor > 75
+   ....................
+   Dacă Ingredientul: Deschidere la Schimbare [16PF Q1]
+   Definiție Poli: (0 = Conservator | 100 = Radical / Inovator)
+   CONDIȚIE: Scor < 25
+   ....................
+
+👹 ȚINTĂ (MONSTRU): VICTIMIZARE / MARTIR
+   Sursă Sistem: Rotter
+   ----------------------------------------
+   Dacă Ingredientul: Locus of Control [Rotter]
+   Definiție Poli: (0 = Extern (Soarta) | 100 = Intern (Eu decid))
+   CONDIȚIE: Scor < 30
+   ....................
+   Dacă Ingredientul: Depresie [OCEAN N, NEO-PI-R N3]
+   Definiție Poli: (0 = Optimist / Vesel | 100 = Trist / Descurajat)
+   CONDIȚIE: Scor > 60
+   ....................
+
+👹 ȚINTĂ (MONSTRU): YES-MAN (SUBMISIV)
+   Sursă Sistem: BDI
+   ----------------------------------------
+   Dacă Ingredientul: Supunere / Conciliere [OCEAN A, NEO-PI-R A4]
+   Definiție Poli: (0 = Combativ | 100 = Împăciuitor / Cedează)
+   CONDIȚIE: Scor > 80
+   ....................
+   Dacă Ingredientul: Asertivitate / Dominanță [OCEAN E, HEXACO X, NEO-PI-R E3, 16PF H]
+   Definiție Poli: (0 = Submisiv / Pasiv | 100 = Dominant / Lider)
+   CONDIȚIE: Scor < 20
+   ....................

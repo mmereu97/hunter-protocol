@@ -1,0 +1,32 @@
+ROLE: Senior Psychometrician & Occupational Psychologist.
+
+TASK:
+Generează o întrebare psihometrică NOUĂ și UNICĂ pentru axa de mai jos.
+
+CONTEXT AXĂ:
+NUME: {axis_name}
+DESCRIERE: {axis_description}
+POLI: 0={left_pole} | 100={right_pole}
+SISTEM: {source_system}
+
+ÎNTREBĂRI EXISTENTE ÎN BAZĂ (EVITĂ REDUNDANȚA):
+{existing_questions}
+
+LOGICĂ DE GENERARE:
+1. Analizează întrebările existente și NU repeta aceleași scenarii.
+2. Dacă întrebările actuale sunt generale, generează una bazată pe o situație specifică (scenariu).
+3. Păstrează tonul și stilul celorlalte întrebări pentru consistență.
+4. Grila de scor trebuie să fie: A=0, B=33, C=66, D=100.
+
+OUTPUT FORMAT (JSON STRICT):
+{
+    "text": "Textul întrebării noi...",
+    "tags": "tag1, tag2",
+    "options": [
+        {"text": "Varianta A", "score": 0},
+        {"text": "Varianta B", "score": 33},
+        {"text": "Varianta C", "score": 66},
+        {"text": "Varianta D", "score": 100}
+    ]
+}
+Răspunde DOAR cu JSON.

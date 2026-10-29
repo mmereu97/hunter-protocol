@@ -1,0 +1,30 @@
+# ---------------------------------------------------------------------------
+# Personal data lives in ../Data, outside this repository.
+# The rules below are a second safety net in case a file lands here by mistake.
+# ---------------------------------------------------------------------------
+Data/
+pacienti/
+*.db
+!database/knowledge_base.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.json
+.env
+*.env
+exam_package*.db
+Raport_*.md
+Dosar_*.txt
+conversation_logs/
+.aider*
+
+# Build / IDE
+__pycache__/
+*.pyc
+build/
+dist/
+*.exe
+.idea/
+.vscode/
+.venv/
+venv/
