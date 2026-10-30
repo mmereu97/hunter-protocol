@@ -8,6 +8,9 @@ I built it to analyse myself, from the inside, with more nuance than a fixed que
 
 > ⚠️ **Not a medical device.** Hunter Protocol is a personal and research tool. It does not diagnose anything, and its questions are not a validated clinical instrument. Clinical axes are inspired by published constructs and only indicate patterns worth discussing with a professional.
 
+![Hunter Protocol: the test architect, with the 110-axis catalogue, saved protocols and the AI wizard](docs/screenshots/architect.png)
+*The test architect: pick axes from the catalogue (filtered by category, searchable), name the protocol and its strategy, or let the AI wizard propose the axes. Saved protocols on the left, including the examples shipped with the app.*
+
 ---
 
 ## ✨ What it does
